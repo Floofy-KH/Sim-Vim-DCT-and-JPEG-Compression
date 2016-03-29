@@ -1,4 +1,6 @@
-directory = 'H:/Sim & Vim/Sounds/';
+currentDirectory = pwd;
+folderDirectory = '/Sounds/';
+directory = strcat(currentDirectory, folderDirectory);
 files = {'mid_G_guitar' 'thunder' 'police' 'scream' 'explosion' 'reverse_clang' 'woman_scream' 'water_stream'};
 
 nFiles = length(files)
